@@ -1,0 +1,11 @@
+-muwx
+-i ./Output/stm8_boot.ihx
+-b HOME = 0x8000
+-b DATA = 0x0001
+-k D:\sdcc\bin\..\lib\stm8
+-l stm8
+./Output/main.rel
+./Output/funseg.rel
+./Output/funcopy.rel
+
+-e

@@ -1,0 +1,28 @@
+XH3
+H C areas 2 global symbols
+M funseg
+O -mstm8
+S .__.ABS. Def000000
+A _CODE size 0 flags 0 addr 0
+A DATA size 0 flags 0 addr 0
+A INITIALIZED size 0 flags 0 addr 0
+A DABS size 0 flags 8 addr 0
+A HOME size 0 flags 0 addr 0
+A GSINIT size 0 flags 0 addr 0
+A GSFINAL size 0 flags 0 addr 0
+A CONST size 0 flags 0 addr 0
+A INITIALIZER size 0 flags 0 addr 0
+A CODE size 0 flags 0 addr 0
+A FUN_SEG size 1C flags 0 addr 0
+S __flash_write Def000000
+A CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 00 0A
+T 00 00 00 88 72 10 50 51 16 04 0F 01
+R 00 00 00 0A
+T 00 00 09
+R 00 00 00 0A
+T 00 00 09 F6 5C 90 F7 90 5C 0C 01 7B 01 A1 80 25
+R 00 00 00 0A
+T 00 00 16 F2 1E 02 5B 05 FC
+R 00 00 00 0A

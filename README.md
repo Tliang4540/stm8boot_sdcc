@@ -1,18 +1,18 @@
 ## 项目简介 ##
-  1.使用SDCC生成BOOT程序，BOOT可以使用串口烧录程序
-  2.移植[Zepan][1] 的hairBoot程序，小于512字节
-  3.在STM8L151K4上实测
+1.使用SDCC生成BOOT程序，BOOT可以使用串口烧录程序
+2.移植[Zepan][1] 的hairBoot程序，小于512字节
+3.在STM8L151K4上实测
 
 ## 上位机 ##
-  使用MVSC 2012 编写，源码和例程在exe文件夹中
-  在cmd命令行中输入"boot_app COMx filepath"即可进行下载
-  只做了解析hex文件，其他文件暂不支持
-  没做选择内存模型，默认每块128字节
+使用MVSC 2012 编写，源码和例程在exe文件夹中
+在cmd命令行中输入"boot_app COMx filepath"即可进行下载
+只做了解析hex文件，其他文件暂不支持
+没做选择内存模型，默认每块128字节
 
 ## 测试1.hex文件 ##
-  RTC定时1S中断控制PA6翻转
-  USART1循环打印Tliang
-  源码[stm8_sdcc][3] 
+RTC定时1S中断控制PA6翻转
+USART1循环打印Tliang
+源码[stm8_sdcc][3] 
 
 ## BOOT源码 ##
 
